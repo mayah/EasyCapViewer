@@ -48,7 +48,6 @@
 		0E78CB980FC92D8300E9C148 /* ECVDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E78CB970FC92D8300E9C148 /* ECVDebug.m */; };
 		0E78CD850FC9F9E300E9C148 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E78CD840FC9F9E300E9C148 /* QuartzCore.framework */; };
 		0E78CDB50FC9F9EB00E9C148 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E78CDB40FC9F9EB00E9C148 /* OpenGL.framework */; };
-		0E7FFC0010899578000C8217 /* vecLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7FFBFF10899578000C8217 /* vecLib.framework */; };
 		0E7FFC4510899D4B000C8217 /* ECVDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FFC4410899D4B000C8217 /* ECVDividerView.m */; };
 		0E7FFD1B1089CEE0000C8217 /* ECVPlayButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FFD1A1089CEE0000C8217 /* ECVPlayButtonCell.m */; };
 		0E7FFD1E1089D60A000C8217 /* ECVCropCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FFD1D1089D60A000C8217 /* ECVCropCell.m */; };
@@ -99,6 +98,7 @@
 		0EEFA5C2103BB79A0038C135 /* ECVVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFA5C1103BB79A0038C135 /* ECVVideoView.m */; };
 		0EFEE896109205C300312653 /* Cursor-Resize-45.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEE894109205C300312653 /* Cursor-Resize-45.tiff */; };
 		0EFEE897109205C300312653 /* Cursor-Resize-135.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEE895109205C300312653 /* Cursor-Resize-135.tiff */; };
+		1CCD1F6B1A66C8C00000AB56 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCD1F6A1A66C8C00000AB56 /* Accelerate.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		B50600661327948000B2F202 /* ECVIndependentVideoStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B50600651327948000B2F202 /* ECVIndependentVideoStorage.m */; };
 		B5060071132794E400B2F202 /* ECVPixelBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5060070132794E400B2F202 /* ECVPixelBuffer.m */; };
@@ -192,7 +192,6 @@
 		0E78CD4F0FC9F36000E9C148 /* stk11xx-dev-0408.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "stk11xx-dev-0408.m"; sourceTree = "<group>"; };
 		0E78CD840FC9F9E300E9C148 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0E78CDB40FC9F9EB00E9C148 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		0E7FFBFF10899578000C8217 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = /System/Library/Frameworks/vecLib.framework; sourceTree = "<absolute>"; };
 		0E7FFC4310899D4B000C8217 /* ECVDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVDividerView.h; sourceTree = "<group>"; };
 		0E7FFC4410899D4B000C8217 /* ECVDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECVDividerView.m; sourceTree = "<group>"; };
 		0E7FFD191089CEE0000C8217 /* ECVPlayButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVPlayButtonCell.h; sourceTree = "<group>"; };
@@ -254,6 +253,8 @@
 		0EFEE895109205C300312653 /* Cursor-Resize-135.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Cursor-Resize-135.tiff"; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1CCD1F671A66C72B0000AB56 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = ../../../../System/Library/Frameworks/vecLib.framework; sourceTree = "<group>"; };
+		1CCD1F6A1A66C8C00000AB56 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* EasyCapViewer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCapViewer_Prefix.pch; sourceTree = "<group>"; };
@@ -314,6 +315,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCD1F6B1A66C8C00000AB56 /* Accelerate.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0E78C9F30FC8FA1000E9C148 /* IOKit.framework in Frameworks */,
 				0E78CD850FC9F9E300E9C148 /* QuartzCore.framework in Frameworks */,
@@ -324,7 +326,6 @@
 				0EE547941070F34C00F003AF /* CoreVideo.framework in Frameworks */,
 				0EE5483A1071019600F003AF /* QuickTime.framework in Frameworks */,
 				0E9F5E631085D06F00375752 /* Carbon.framework in Frameworks */,
-				0E7FFC0010899578000C8217 /* vecLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +433,6 @@
 				0E78CDB40FC9F9EB00E9C148 /* OpenGL.framework */,
 				0E0AC92310203FB300C12D88 /* QTKit.framework */,
 				0EE548391071019600F003AF /* QuickTime.framework */,
-				0E7FFBFF10899578000C8217 /* vecLib.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -530,6 +530,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CCD1F6A1A66C8C00000AB56 /* Accelerate.framework */,
+				1CCD1F671A66C72B0000AB56 /* vecLib.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);

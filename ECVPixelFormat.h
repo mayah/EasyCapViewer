@@ -21,6 +21,8 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 #import "ECVDebug.h"
 
+#import <OpenGL/gl.h>
+
 /* Equivalent formats (preferred constant listed first):
 - k2vuyPixelFormat, kCVPixelFormatType_422YpCbCr8, k422YpCbCr8CodecType
 	- kUYVY422PixelFormat seems to be the same but Core Video doesn't like it.

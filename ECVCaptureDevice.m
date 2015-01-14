@@ -366,7 +366,7 @@ static IOReturn ECVGetPipeWithProperties(IOUSBInterfaceInterface **const interfa
 	switch(error) {
 		case kIOReturnSuccess:
 			if(r.wLenDone != r.wLength) {
-				ECVLog(ECVError, @"Incomplete transfer, %u of %u", r.wLenDone, r.wLength);
+				ECVLog(ECVError, @"Incomplete transfer, %u of %u", (unsigned int)r.wLenDone, r.wLength);
 				return NO;
 			}
 			return YES;

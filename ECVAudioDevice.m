@@ -39,8 +39,14 @@ static OSStatus ECVAudioObjectPropertyListenerProc(AudioObjectID const inObjectI
 static OSStatus ECVAudioDeviceIOProc(AudioDeviceID const inDevice, AudioTimeStamp const *const inNow, AudioBufferList const *const inInputData, AudioTimeStamp const *const inInputTime, AudioBufferList *const outOutputData, AudioTimeStamp const *const inOutputTime, id const device)
 {
 	NSAutoreleasePool *const pool = [[NSAutoreleasePool alloc] init];
-	if([device isInput]) [[device delegate] audioInput:device didReceiveBufferList:inInputData atTime:inInputTime];
-	else [[device delegate] audioOutput:device didRequestBufferList:outOutputData forTime:inOutputTime];
+    if ([device isInput]) {
+        id tmp = [device delegate];
+        [tmp audioInput:device didReceiveBufferList:inInputData atTime:inInputTime];
+    } else {
+        id tmp = [device delegate];
+        [tmp audioOutput:device didRequestBufferList:outOutputData forTime:inOutputTime];
+    }
+    
 	[pool drain];
 	return noErr;
 }
